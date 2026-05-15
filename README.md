@@ -4,6 +4,12 @@ AdvertM 是一个基于 FastAPI 的 Meta/Facebook 广告后端服务，主要用
 
 项目默认以 dry-run 方式运行，便于先验证请求结构、任务流程和本地落库结果；配置 Meta 授权并关闭 dry-run 后，普通素材广告会调用 Meta Graph API 创建处于 `PAUSED` 状态的 Campaign、Ad Set、Creative 和 Ad。
 
+## 文档索引
+
+- [完整学习指南](docs/project-study-guide-complete.md)：项目定位、架构、任务系统、Meta API 编排、Catalog/DPA 和生产化边界。
+- [面试问题完整回答](docs/面试问题完整回答.md)：围绕异步任务、去重、dry-run、Meta Graph API、Catalog/DPA、SQLite 和生产化演进的高频问答。
+- [源码逐文件导读](docs/source-code-walkthrough-complete.md)：按文件定位核心函数、调用链路和面试追问点。
+
 ## 功能概览
 
 - FastAPI HTTP API，自动提供 OpenAPI 文档。
