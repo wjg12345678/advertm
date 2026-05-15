@@ -9,6 +9,8 @@ env/
 .env
 .env.*
 
+storage/
+
 .DS_Store
 .pytest_cache/
 .mypy_cache/
